@@ -1,14 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import Hero from './Components/Hero/Hero';
 
 function App() {
   return (
     <div className="App">
-      <div className='container'>
-        <h1>Work in Progress!</h1>
-        <p>Please, come back later...</p>
-      </div>
+      <Navbar />
+      <Hero />
     </div>
   );
 }
