@@ -5,8 +5,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Work in Progress!</h1>
-      <p>Please, come back later...</p>
+      <div className='container'>
+        <h1>Work in Progress!</h1>
+        <p>Please, come back later...</p>
+      </div>
     </div>
   );
 }

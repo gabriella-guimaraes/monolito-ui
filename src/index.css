@@ -1,0 +1,29 @@
+:root{
+  --bg-primary: #FFFFFF;
+  --bg-secundary: #E9E4DE;
+  --bg-gray: #767676;
+  --text-dark: #1E1E1E;
+  --navy-blue: #163166;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-dark);
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  padding: 0 5.5rem;
+}
+
+@media (max-width: 800px) {
+  .container {
+    padding: 0 3rem;
+  }
+}
