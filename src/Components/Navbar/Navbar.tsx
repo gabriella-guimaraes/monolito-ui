@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './Navbar.module.css';
+import './Navbar.css';
 import { Link } from 'react-scroll';
 import menu_icon from '../../assets/menu-icon.png';
 
@@ -14,12 +14,12 @@ const Navbar = () => {
   return (
     <div>
         <nav>
-            <h1 className={styles.logo}>Monólito Arquitetura</h1>
+            <h1 className="logo">Monólito Arquitetura</h1>
 
-            <ul className={mobile? '' : styles.hide_menu}>
+            <ul className={mobile? '' : "hide_menu"}>
                 <li><Link to='Hero' smooth={true} offset={0} duration={500}>Home</Link></li>
             </ul>
-            <img src={menu_icon} alt="hamburger menu icon - mobile" className={styles.menu} onClick={toggleMenu} />
+            <img src={menu_icon} alt="hamburger menu icon - mobile" className="menu" onClick={toggleMenu} />
         </nav>
     </div>
   )

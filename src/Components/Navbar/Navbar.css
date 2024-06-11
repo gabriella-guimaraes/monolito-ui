@@ -12,10 +12,11 @@ nav {
 }
 
 .logo {
-    width: 300px;
-    font-weight: 700;
+    width: 350px;
+    font-weight: 500;
     font-size: 24px;
     margin: 5px 20px;
+    text-transform: uppercase;
 }
 
 nav ul li {
@@ -34,7 +35,7 @@ nav ul li {
 @media (max-width: 1000px) {
     .logo {
         font-size: 20px;
-        width: 235px;
+        width: 300px;
     }
 
     nav ul li {
