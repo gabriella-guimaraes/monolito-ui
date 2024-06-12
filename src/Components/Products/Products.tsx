@@ -10,7 +10,12 @@ import house from "../../assets/interior_design.jpg";
 const Products = () => {
   return (
     <>
-        <h1 className='title'>Nossas Especialidades</h1>
+        <div className='intro'>
+            <h1 className='title'>Nossas Especialidades</h1>
+            <p>Com uma abordagem inovadora e um olhar atento aos detalhes, criamos espaços que se destacam pela sua solidez e 
+            pela sua estética única. Cada projeto é uma fusão harmoniosa entre forma e função, projetado para proporcionar uma 
+            experiência arquitetônica inigualável.</p>
+        </div>
         <div className='container Products'>
             <div className="product">
                 <img src={house} alt="Design de interior para residências" />

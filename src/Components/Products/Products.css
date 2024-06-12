@@ -11,6 +11,19 @@
     text-transform: uppercase;
     font-size: 32px;
     margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.intro {
+    width: 82%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.intro p {
+    font-size: 14px;
+    text-align: justify;
 }
 
 .product img {
@@ -52,4 +65,16 @@
 .product:hover .caption {
     opacity: 1;
     padding-top: 0;
+}
+
+/* media query */
+@media (max-width: 950px) {
+    .Products {
+        flex-direction: column;
+    }
+
+    .product {
+        flex-basis: 100%;
+        margin: 20px;
+    }
 }
