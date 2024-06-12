@@ -100,3 +100,50 @@ img:hover {
     transform: scale(1.1);
     z-index: 10;
 }
+
+@media (max-width: 950px) {
+    .About {
+        flex-direction: column;
+    }
+
+    .side-text {
+        max-width: 30px;
+        display: none;
+    }
+
+    .text {
+        flex-basis: 100%;
+    }
+
+    .content-wrapper {
+        max-width: 80%;
+        margin: 80px auto;
+    }
+
+    .images {
+        flex-direction: row;
+        flex-basis: 100%;
+        justify-content: flex-start;
+    }
+
+    .main-img{
+        flex: none;
+        flex-basis: 31%;
+    }
+
+    .secondary-img{
+        flex-basis: 31%;
+        justify-content: flex-start;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .main-img img, .secondary-img img {
+        max-width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}
