@@ -18,6 +18,8 @@ const Navbar = () => {
 
             <ul className={mobile? '' : "hide_menu"}>
                 <li><Link to='Hero' smooth={true} offset={0} duration={500}>Home</Link></li>
+                <li><Link to='Products' smooth={true} offset={0} duration={500}>Produtos</Link></li>
+                <li><Link to='About' smooth={true} offset={0} duration={500}>Sobre</Link></li>
             </ul>
             <img src={menu_icon} alt="hamburger menu icon - mobile" className="menu" onClick={toggleMenu} />
         </nav>
